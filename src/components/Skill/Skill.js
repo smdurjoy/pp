@@ -11,8 +11,8 @@ export default class Skill extends Component {
                 {Language: 'CSS', Skill: 85},
                 {Language: 'JS', Skill: 60},
                 {Language: 'jQuery', Skill: 50},
-                {Language: 'PHP', Skill: 65},
-                {Language: 'Laravel', Skill: 50},
+                {Language: 'PHP', Skill: 55},
+                {Language: 'Laravel', Skill: 60},
                 {Language: 'ReactJS', Skill: 55},
                 {Language: 'MySQL', Skill: 60},
                 {Language: 'Html', Skill: 90}
@@ -38,6 +38,7 @@ export default class Skill extends Component {
                                 </Bar>
                             </BarChart>
                         </ResponsiveContainer>   
+                        <h6 className="smtitle">Please click bars to view details</h6>
                     </Col>
 
                     <Col md={12} lg={12} sm={12} xs={12}>
