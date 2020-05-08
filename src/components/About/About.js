@@ -6,7 +6,7 @@ import Slider from 'react-slick'
 import slider1 from '../../asset/image/aboutImg1.jpg'
 import slider2 from '../../asset/image/aboutImg2.JPG'
 import slider3 from '../../asset/image/aboutImg3.jpg'
-
+import cv from '../../asset/file/durjoy.pdf'
 
 export default class About extends Component {
     render() {
@@ -73,7 +73,7 @@ export default class About extends Component {
                                 </tbody>
                             </table>    
 
-                            <a href="#" target="_blank" className="btn btnSubmit">download cv</a>
+                            <a href={cv} className="btn btnSubmit" download="CV of Saqlain Mustaq Durjoy"><i class="fa fa-download"></i> download cv</a>
                         </Col>
                     </Row>
                 </Container>

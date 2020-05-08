@@ -52,7 +52,7 @@ export default class Portfolio extends Component {
 
                                         <Col md={8} lg={8} sm={8} className="right">
                                             <h5 class="card-title text-white">
-                                                <a href="https://github.com/smdurjoy/protfolio" target="_blank"> Dynamic portfolio with admin panel</a>
+                                                <a href="https://sitedynamic.000webhostapp.com" target="_blank"> Dynamic Company Site with admin panel</a>
                                             </h5> 
                                             <p class="card-text">
                                                 ReactJS, Lumen as RestAPI, MySQL
